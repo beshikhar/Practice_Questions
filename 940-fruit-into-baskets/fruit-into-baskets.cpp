@@ -16,10 +16,10 @@ public:
                 left++;
 
             }
-            if(basket.size()<=2){
+            
             maxlength=max(maxlength,right-left+1);
             right++;
-            }
+            
         }
         return maxlength; 
         
